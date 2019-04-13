@@ -1,0 +1,7 @@
+
+<h5>Title:</h5>
+<p><%= @post.title %></p>
+<h5>Body:</h5>
+<p><%= @post.body %></p>
+<%= link_to" Edit", edit_post_path(@post.id) %>
+<%= link_to "back", index_path,class:"back" %>
